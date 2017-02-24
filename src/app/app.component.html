@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<form [formGroup]="formGroup">
+  <app-input label="Id" formControlName='id'></app-input>
+  <app-input label="Name" formControlname='name'></app-input>
+</form>
