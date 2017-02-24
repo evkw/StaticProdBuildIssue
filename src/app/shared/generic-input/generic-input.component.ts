@@ -9,5 +9,4 @@ import { makeValueProvider } from '../make-value-provider';
 })
 export class GenericInputComponent extends AbstractValueAccessor {
   @Input('label') label: string;
-  @Input('placeholder') placeholder: string;
 }

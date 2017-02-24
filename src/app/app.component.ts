@@ -11,7 +11,7 @@ export class AppComponent {
   constructor(private fb: FormBuilder) {
     this.formGroup = fb.group({
       id: ['1234'],
-      name: ['This is a test name']
+      value: ['Test']
     });
   }
 }
